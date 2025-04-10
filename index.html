@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Blue Bottle Nepal
-        </title>
-        <link rel="stylesheet" type="text/css" href="css/index.css"/>
-        <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="nav-left">
-              <ul>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Best Sellers</a></li>
-                <li><a href="#">Subscriptions</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </div>
-          
-            <div class="nav-center">
-              <a href="index.html">
-                <img src="resources/icons/blue_botlle.png" alt="Cafe Logo" class="logo" />
-              </a>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Image Slider</title>
+  <link rel="stylesheet" href="css/slider.css"/>
+  <link rel="stylesheet" href="css/navbar.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Subscriptions</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      
+        <div class="nav-center">
+          <a href="index.html">
+            <img src="resources/icons/blue_botlle.png" alt="Cafe Logo" class="logo" />
+          </a>
+        </div>
 
-            <div class="nav-right">
-                <a href="#">Locations</a>
-                <a href="search.html">
-                  <img src="resources/icons/search.png" alt="Search Icon" class="nav-icon">
-                </a>
-                <a href="user.html">
-                  <img src="resources/icons/account.png" alt="User Icon" class="nav-icon">
-                </a>
-                <a href="cart.html">
-                  <img src="resources/icons/cart.png" alt="Cart Icon" class="nav-icon">
-                </a>
-              </div>
-          </nav>
-          
-    </body>
+        <div class="nav-right">
+            <a href="#">Locations</a>
+            <a href="search.html">
+              <img src="resources/icons/search.png" alt="Search Icon" class="nav-icon">
+            </a>
+            <a href="user.html">
+              <img src="resources/icons/account.png" alt="User Icon" class="nav-icon">
+            </a>
+            <a href="cart.html">
+              <img src="resources/icons/cart.png" alt="Cart Icon" class="nav-icon">
+            </a>
+          </div>
+    </nav>
 
+    <div class="slider-text">
+        <h1>Blue Bottle Nepal</h1>
+        <p>Your perfect coffee experience awaits.</p>
+        <button class="shop-now" onclick="window.location.href='index.html'">Shop Now</button>
+      </div>
+
+  <div class="slider">
+
+    <img src="resources/banners/filter_coffee.jpg" class="slide" style="display: block;">
+    <img src="resources/banners/japanese_style.jpg" class="slide">
+    <img src="resources/banners/packet_coffee.jpg" class="slide">
+
+    <button onclick="prevSlide()" class="nav prev">&#10094;</button>
+    <button onclick="nextSlide()" class="nav next">&#10095;</button>
+  </div>
+
+  <script src="js/slider.js"></script>
+</body>
 </html>
