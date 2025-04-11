@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Bottle Nepal</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/slider.css"/>
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/gallery_item.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Subscriptions</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+        </div>
+      
+        <div class="nav-center">
+          <a href="index.html">
+            <img src="resources/icons/blue_botlle.png" alt="Cafe Logo" class="logo" />
+          </a>
+        </div>
+
+        <div class="nav-right">
+            <a href="about_us.html">About Us</a>
+            <a href="search.html">
+              <img src="resources/icons/search.png" alt="Search Icon" class="nav-icon">
+            </a>
+            <a href="user.html">
+              <img src="resources/icons/account.png" alt="User Icon" class="nav-icon">
+            </a>
+            <a href="cart.html">
+              <img src="resources/icons/cart.png" alt="Cart Icon" class="nav-icon">
+            </a>
+          </div>
+    </nav>
+    <!-- image slider text-->
+    <div class="slider-text">
+        <h1>Our Best Sellers</h1>
+        <p>Celebrated favorites from artfully crafted blends to accessories that elevate your coffee experience</p>
+        <button class="shop-now" onclick="window.location.href='cart.html'">Shop Now</button>
+      </div>
+ <!-- image slider -->
+    <div class="slider">
+
+        <img src="resources/banners/filter_coffee.jpg" class="slide" style="display: block;">
+        <img src="resources/banners/japanese_style.jpg" class="slide">
+        <img src="resources/banners/packet_coffee.jpg" class="slide">
+
+        <button onclick="prevSlide()" class="nav prev">&#10094;</button>
+        <button onclick="nextSlide()" class="nav next">&#10095;</button>
+    </div>
+    <div class="info-banner">
+        <div class="info-banner-item">
+        <img src="resources/icons/Quality.png" alt="Meticulous Quality Icon" />
+        <h3>Meticulous Quality</h3>
+        </div>
+        <div class="info-banner-item">
+        <img src="resources/icons/Source.png" alt="Ethically Sourced Icon" />
+        <h3>Ethically Sourced</h3>
+        </div>
+        <div class="info-banner-item">
+        <img src="resources/icons/Roasting.png" alt="Small Batch Roasting Icon" />
+        <h3>Small Batch Roasting</h3>
+        </div>
+        <div class="info-banner-item">
+        <img src="resources/icons/Plan.png" alt="Customized Subscription Icon" />
+        <h3>Customized Subscription</h3>
+        </div>
+    </div>  
+<!-- mini gallery for best seller -->
+    <div class="best-sellers">
+        <h2>Our Best Sellers</h2>
+      
+        <!-- Row 1: 4 Items -->
+        <div class="gallery-item">
+          <div class="tag new-release">New Release</div>
+          <img src="resources/gallery/Blue-Bottle-Pour-Over-Kit-Hover-M2.jpg" alt="Kiyosumi Mini Mug" />
+          <h3>Kiyosumi Mini Mug</h3>
+          <p>Blue Bottle Nepal's 100th anniversary</p>
+          <button>Add to Cart - 150</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/Blue-Bottle-Pour-Over-Kit-M1-Hero.png" alt="Blue Bottle Pour Over Kit" />
+          <h3>Blue Bottle Pour Over Kit</h3>
+          <p>Bundle and save, 120 value</p>
+          <button>Add to Cart - 450</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/M1_NOLA_Instant_3Pack_Bundle.png" alt="NOLA Craft Instant Three-Pack" />
+          <h3>NOLA Craft Instant Three-Pack</h3>
+          <p>Stock up on a sweet and creamy crowd-pleaser</p>
+          <button>Add to Cart - 200</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/Hayes-Valley-Espresso-Hover_cwlntc.jpg" alt="Hayes Valley Espresso" />
+          <h3>Hayes Valley Espresso</h3>
+          <p>Baking chocolate, orange zest, brown sugar</p>
+          <button>Add to Cart - 180</button>
+        </div>
+      
+        <!-- Row 2: 4 Items (duplicates or new) -->
+        <div class="gallery-item">
+          <div class="tag new-release">New Release</div>
+          <img src="resources/gallery/Blue-Bottle-Pour-Over-Kit-Hover-M2.jpg" alt="Kiyosumi Mini Mug" />
+          <h3>Kiyosumi Mini Mug</h3>
+          <p>Blue Bottle Nepal's 100th anniversary</p>
+          <button>Add to Cart - 150</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/Blue-Bottle-Pour-Over-Kit-M1-Hero.png" alt="Blue Bottle Pour Over Kit" />
+          <h3>Blue Bottle Pour Over Kit</h3>
+          <p>Bundle and save, 120 value</p>
+          <button>Add to Cart - 450</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/M1_NOLA_Instant_3Pack_Bundle.png" alt="NOLA Craft Instant Three-Pack" />
+          <h3>NOLA Craft Instant Three-Pack</h3>
+          <p>Stock up on a sweet and creamy crowd-pleaser</p>
+          <button>Add to Cart - 200</button>
+        </div>
+      
+        <div class="gallery-item">
+          <div class="tag best-seller">Best Seller</div>
+          <img src="resources/gallery/Hayes-Valley-Espresso-Hover_cwlntc.jpg" alt="Hayes Valley Espresso" />
+          <h3>Hayes Valley Espresso</h3>
+          <p>Baking chocolate, orange zest, brown sugar</p>
+          <button>Add to Cart - 180</button>
+        </div>
+      
+      </div>
+      
+      <footer class="site-footer">
+        <!-- Footer Columns -->
+        <div class="footer-columns">
+    
+          <!-- Column 1: Company -->
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+    
+
+          <div class="footer-column">
+            <h3>Learn</h3>
+            <ul>
+              <li><a href="#">Brew Guides</a></li>
+              <li><a href="#">Virtual Classes</a></li>
+              <li><a href="#">Our Brand</a></li>
+              <li><a href="#">Our Coffee</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+    
+          <!-- Column 3: More -->
+          <div class="footer-column">
+            <h3>More</h3>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Shipping FAQs</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Get Subscriptions</a></li>
+            </ul>
+          </div>
+    
+          <!-- Column 4: Subscribe -->
+          <div class="footer-column subscribe-column">
+            <h3>Subscribe and Stay Updated</h3>
+            <p>
+              Join our email list for the latest news, fresh brews, and 
+              special promotions. Plus, enjoy complimentary shipping 
+              on your next purchase.
+            </p>
+            <form class="subscribe-form" action="#" method="post">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/"><img src="resources/icons/fb-icon.png" alt="Facebook" /></a>
+              <a href="https://x.com/"><img src="resources/icons/x.png" alt="X" /></a>
+              <a href="https://www.instagram.com/"><img src="resources/icons/instagram.png" alt="Instagram" /></a>
+            </div>
+          </div>
+    
+        </div>
+    
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom">
+          <p>
+            <a href="#">Terms of Use</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Notice at Collection</a>
+          </p>
+          <p>© 2025 Blue Bottle Nepal, Inc. All rights reserved.</p>
+        </div>
+      </footer>
+  <script src="js/slider.js"></script>
+</body>
+</html>
